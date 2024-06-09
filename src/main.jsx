@@ -5,6 +5,8 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Header from "./Components/Header/Header.jsx";
+import Features from "./Components/Features/Features.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 const router = createBrowserRouter(
   /* Creating a browser based router*/
@@ -22,7 +24,7 @@ const router = createBrowserRouter(
         },
         {
           path: "Aboutus",
-          element: <App />,
+          element: <Footer />,
         },
         {
           path: "pricing",
@@ -30,7 +32,7 @@ const router = createBrowserRouter(
         },
         {
           path: "Features",
-          element: <App />,
+          element: <Features />,
         },
       ],
     },

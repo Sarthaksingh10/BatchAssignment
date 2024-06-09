@@ -8,7 +8,7 @@ export default function TopNavbar() {
       <nav className="   w-[1080px] mx-[175px] my-[40px] flex justify-between">
         <ul className="flex justify-between gap-[40px] items-center w-full">
           <div className="flex gap-[40px]">
-            <li className="flex items-center font-clash-display font-black text-[32px]">
+            <li className="flex items-center font-clash-display font-black text-[32px] hover:cursor-pointer">
               <img src={frame} alt="Logo" />
               uifry
             </li>
@@ -17,7 +17,7 @@ export default function TopNavbar() {
                 to=""
                 className={({ isActive }) =>
                   `
-              font-clash-display font-bold text-[26px]
+              font-clash-display font-bold text-[26px] hover:cursor-pointer
                     ${isActive ? "text-[#FF5555] " : "text-[#000000]"}
                     `
                 }
@@ -28,7 +28,7 @@ export default function TopNavbar() {
                 to="/Aboutus"
                 className={({ isActive }) =>
                   `
-              font-clash-display font-bold text-[26px]
+              font-clash-display font-bold text-[26px] hover:cursor-pointer
                     ${isActive ? "text-[#FF5555]" : "text-[#000000]"}
                     `
                 }
@@ -39,7 +39,7 @@ export default function TopNavbar() {
                 to="/pricing"
                 className={({ isActive }) =>
                   `
-              font-clash-display font-bold text-[26px]
+              font-clash-display font-bold text-[26px] hover:cursor-pointer
                     ${isActive ? "text-[#FF5555]" : "text-[#000000]"}
                     `
                 }
@@ -50,7 +50,7 @@ export default function TopNavbar() {
                 to="/Features"
                 className={({ isActive }) =>
                   `
-              font-clash-display font-bold text-[26px]
+              font-clash-display font-bold text-[26px] hover:cursor-pointer
                     ${isActive ? "text-[#FF5555]" : "text-[#000000]"}
                     `
                 }
